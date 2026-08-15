@@ -22,11 +22,11 @@ from PIL import (
     ImageFilter,
     ImageFont
 )
-from Elevenyts import config
-from Elevenyts.helpers import Track
+from ArtistMusic import config
+from ArtistMusic.helpers import Track
 
 SIZE = (1280, 720)
-BRAND_TEXT = "♪ Kitty X Music !!"
+BRAND_TEXT = "✦ 𝗔𝗿𝘁𝗶𝘀𝘁𝗕𝗼𝘁𝘀 ✦"
 BRAND_X = 40
 BRAND_Y = 30
 ACCENT_COLOR = (255, 196, 61, 255)   # warm gold accent for "X"
@@ -46,8 +46,8 @@ class Thumbnail:
     def __init__(self):
         self.brand_font = _load_font(
             [
-                "Elevenyts/helpers/Raleway-BoldItalic.ttf",
-                "Elevenyts/helpers/Raleway-Bold.ttf",
+                "ArtistMusic/helpers/Raleway-BoldItalic.ttf",
+                "ArtistMusic/helpers/Raleway-Bold.ttf",
             ],
             30
         )
